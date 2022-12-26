@@ -1,6 +1,8 @@
 # importing the module
+import argparse
 from pytube import YouTube
 
+# TODO change this to dynamically recieve arguments from commandline using argparse
 # where to save
 SAVE_PATH = "/Users/andrewalseth/Movies" #to_do
 
